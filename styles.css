@@ -1,0 +1,105 @@
+/* General Styles */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.8;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 900px;
+}
+
+/* Header */
+header {
+    text-align: center;
+    background-color: #007acc;
+    color: white;
+    padding: 30px 20px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+}
+header h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+}
+header p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #ffffff;
+}
+header a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Section Titles */
+h2 {
+    color: #007acc;
+    font-size: 24px;
+    border-bottom: 2px solid #007acc;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+/* Section Styling */
+.section {
+    margin-bottom: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* List Styling */
+ul {
+    margin-left: 20px;
+    padding-left: 10px;
+}
+ul li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+/* Experience and Education Layout */
+.experience-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+.experience-item .position {
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+}
+.experience-item .year {
+    text-align: right;
+    color: #777;
+    font-style: italic;
+    flex-shrink: 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+    .experience-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .experience-item .year {
+        margin-top: 5px;
+        text-align: left;
+    }
+}
