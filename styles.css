@@ -26,11 +26,6 @@ header h1 {
 header p {
     margin: 5px 0;
     font-size: 16px;
-    color: #ffffff;
-}
-header a {
-    color: #ffffff;
-    text-decoration: none;
 }
 
 /* Section Titles */
@@ -59,6 +54,12 @@ ul {
 ul li {
     margin-bottom: 10px;
     line-height: 1.6;
+}
+
+/* Keywords Highlight */
+.highlight {
+    font-weight: bold;
+    color: #007acc;
 }
 
 /* Experience and Education Layout */
